@@ -31,7 +31,7 @@
 		2F7837E0D17706DE6D1EC891 /* Pods-LoginStrategies_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LoginStrategies_Example.release.xcconfig"; path = "Target Support Files/Pods-LoginStrategies_Example/Pods-LoginStrategies_Example.release.xcconfig"; sourceTree = "<group>"; };
 		578F76AFBDB9B67FA38F0BBD /* Pods-LoginStrategies_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LoginStrategies_Tests.debug.xcconfig"; path = "Target Support Files/Pods-LoginStrategies_Tests/Pods-LoginStrategies_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		5BBCC19B4E791B9C4A75A057 /* Pods_LoginStrategies_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LoginStrategies_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		5E101580904C8BA77EB7A239 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		5E101580904C8BA77EB7A239 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* LoginStrategies_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LoginStrategies_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -42,8 +42,8 @@
 		607FACE51AFB9204008FA782 /* LoginStrategies_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LoginStrategies_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		8BDADC56CF22BE80171DE1BA /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		9FD4EFF33EA6DDAB81BF826E /* LoginStrategies.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = LoginStrategies.podspec; path = ../LoginStrategies.podspec; sourceTree = "<group>"; };
+		8BDADC56CF22BE80171DE1BA /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		9FD4EFF33EA6DDAB81BF826E /* LoginStrategies.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LoginStrategies.podspec; path = ../LoginStrategies.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A30F6AF6F715CB10BAE1C4D8 /* Pods-LoginStrategies_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LoginStrategies_Tests.release.xcconfig"; path = "Target Support Files/Pods-LoginStrategies_Tests/Pods-LoginStrategies_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		B5253365AAD4F2F672546384 /* Pods_LoginStrategies_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LoginStrategies_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DCA711B4318C1DDE7E139C7C /* Pods-LoginStrategies_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LoginStrategies_Example.debug.xcconfig"; path = "Target Support Files/Pods-LoginStrategies_Example/Pods-LoginStrategies_Example.debug.xcconfig"; sourceTree = "<group>"; };
@@ -147,7 +147,6 @@
 				578F76AFBDB9B67FA38F0BBD /* Pods-LoginStrategies_Tests.debug.xcconfig */,
 				A30F6AF6F715CB10BAE1C4D8 /* Pods-LoginStrategies_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -227,6 +226,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
